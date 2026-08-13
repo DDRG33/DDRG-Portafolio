@@ -14,7 +14,7 @@ theme = "hugo-primer-blog"
   defaultTheme = "dark"      # Forzamos modo oscuro por defecto (preferido en ciberseguridad)
   showReadingTime = false    # Oculta el tiempo de lectura para un look más limpio
   showAuthor = true
-  
+
   # Color principal estilo terminal/seguridad (Verde hacker o Azul corporativo)
   primaryColor = "#2ea44f"   # Verde técnico de GitHub
 
@@ -26,7 +26,7 @@ theme = "hugo-primer-blog"
 [menus]
   [[menus.main]]
     name = "Whoami"
-    url = "/"
+    url = "/whoami/"
     weight = 1
 
   [[menus.main]]
@@ -36,5 +36,7 @@ theme = "hugo-primer-blog"
 
   [[menus.main]]
     name = "Tutoriales"
-    url = "/projects/"
+    url = "/tutoriales/"
     weight = 3
+
+
