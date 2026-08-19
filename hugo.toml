@@ -1,4 +1,4 @@
-baseURL = 'https://codeberg.org/DDRG/DDRG-Portafolios.git'
+baseURL = 'https://DDRG.codeberg.page/'
 locale = 'es-es'
 title = "DDRG | Digital Forensics & OSINT Analyst"
 
@@ -14,19 +14,19 @@ theme = "hugo-primer-blog"
   defaultTheme = "dark"      # Forzamos modo oscuro por defecto (preferido en ciberseguridad)
   showReadingTime = false    # Oculta el tiempo de lectura para un look más limpio
   showAuthor = true
-  
+
   # Color principal estilo terminal/seguridad (Verde hacker o Azul corporativo)
   primaryColor = "#2ea44f"   # Verde técnico de GitHub
 
   # Configuración de tus enlaces profesionales
   [params.social]
-    github = "DDRG"    # Pon aquí tu usuario de Codeberg o GitHub
+    github = ""                # Lo dejamos vacío para desactivar el enlace automático a GitHub
 
 # Configuración del Menú Profesional
 [menus]
   [[menus.main]]
     name = "Whoami"
-    url = "/"
+    url = "/whoami/"
     weight = 1
 
   [[menus.main]]
@@ -36,5 +36,10 @@ theme = "hugo-primer-blog"
 
   [[menus.main]]
     name = "Tutoriales"
-    url = "/projects/"
+    url = "/tutoriales/"
     weight = 3
+
+  [[menus.main]]
+    name = "📦 Codeberg"
+    url = "https://codeberg.org/DDRG"
+    weight = 4
