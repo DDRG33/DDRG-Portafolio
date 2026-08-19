@@ -1,0 +1,3 @@
+public/
+*.deb
+.hugo_build.lock
