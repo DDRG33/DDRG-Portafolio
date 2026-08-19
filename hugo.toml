@@ -39,7 +39,3 @@ theme = "hugo-primer-blog"
     url = "/tutoriales/"
     weight = 3
 
-  [[menus.main]]
-    name = "📦 Codeberg"
-    url = "https://codeberg.org/DDRG"
-    weight = 4
